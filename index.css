@@ -73,3 +73,10 @@ Classes used to handle fading images
     width: 100%;
     border-style: solid;
 }
+
+/*
+Class used for fading in text
+*/
+.hideme {
+    opacity:0;
+}
