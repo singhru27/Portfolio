@@ -1,1 +1,75 @@
-/* Put your style information here! */
+.background {
+    background-color: rgb(255,255,255);
+    font-family:"Open Sans", sans-serif;
+}
+
+.navy {
+    color: #0000CC;
+}
+/*
+Classes to handle buttons
+*/
+.button {
+    background-color: #0000CC;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .button:hover {
+    background-color: #1595D0;
+  }
+/*
+Classes used to handle fading images
+*/
+.fadingContainer {
+    position: relative;
+  }
+  
+  .fadingImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .fadingMiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fadingContainer:hover .fadingImage {
+    opacity: 0.3;
+  }
+  
+  .fadingContainer:hover .fadingMiddle {
+    opacity: 0.8;
+  }
+  
+  .fadingText {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  /*
+  Class used for storyboard displays
+  */
+  .storyboard-image {
+    width: 100%;
+    border-style: solid;
+}

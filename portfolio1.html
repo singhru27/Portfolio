@@ -1,0 +1,233 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Development</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-social-gh-pages/bootstrap-social.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="fontawesome-free-5.15.1-web/js/fontawesome.js"></script>
+    <script src="fontawesome-free-5.15.1-web/js/solid.js"></script>
+    <script src="fontawesome-free-5.15.1-web/js/brands.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="background text-dark">
+    <!-- Navigation Bar Opening Tag-->
+    <nav class="navbar sticky-top navbar-expand-sm justify-content-end aqua" id="beginning">
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" style="font-size: x-large;" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link interface-color mr-4 ml-4 navy" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link interface-color mr-4 ml-4 navy" href="#usability">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link interface-color ml-4 navy"
+                        href="https://drive.google.com/file/d/1f4n33QDsBeQdxT9qdbDY6qXa0ZavjgOy/view?usp=sharing"
+                        target="_blank">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation Bar Ending Tag-->
+    <br>
+    <!-- Container for the overall project-->
+    <div class="container">
+        <!-- Row for the first image -->
+        <div class="row">
+            <div class="col-12 mb-5">
+                <img src="Assets/hpimage1.png" class="rounded" style="width:100%">
+            </div>
+        </div>
+        <!-- Row for the first section-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1> React App Development</h2>
+            </div>
+            <div class="col-12" style="margin-top:10%">
+                <h2> The Problem</h2>
+            </div>
+            <!-- End of column for introduction text column-->
+            <div class="col-12">
+                <p>Online grocery shopping has exploded in popularity in recent years. As a result, clean and
+                    easy-to-use online grocery websites are becoming increasingly important. The application below
+                    aims to solve this need via a simple, crisp, and intuitive interface for online grocery shopping.
+                </p>
+                <p>
+                    I set out with a goal to create a web application using the React framework that provides for a
+                    seamless shopping experience.
+                </p>
+            </div>
+            <!-- End of column for introduction information column-->
+        </div>
+        <!-- End of first row-->
+        <hr>
+        <!-- Opening tag for additional row-->
+        <div class="row">
+            <div class="col-12">
+                <h2> User Research/User Needs</h2>
+            </div>
+            <!-- End of column for introduction text column-->
+            <div class="col-12">
+                <p>Based off of my personal experiences, interactions with classmates,
+                    and interviews with frequent users of online shopping websites, the following were all listed as
+                    must haves for any website:
+                <ul>
+                    <li>
+                        Users are able to add items and remove items from a dynamic shopping cart.
+                    </li>
+                    <li>
+                        Filtering functionality allows users to find the items most important to them, and the sorting
+                        functionality can quickly sift through the cheapest items in each category.
+                    </li>
+                    <li>
+                        The shopping cart provides users with the ability to see in real time the cost of the
+                        grocery items they are looking to purchase.
+
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <!-- End of column for introduction information column-->
+        </div>
+        <!-- Closing tag for research row-->
+        <hr>
+        <!-- Row for the third element -->
+        <div class="row">
+            <!-- Column for the title-->
+            <div class="col-12">
+                <h2> The Website</h2>
+            </div>
+            <!-- End of column for introduction text column-->
+            <div class="col-12 text-center">
+                <img src="Assets/Web.png" style="width:100%">
+            </div>
+            <!-- End of column for screenshot text column-->
+            <div class="col-12 text-center">
+                <a href=https://grocery-list-csci1300.herokuapp.com/ target="_blank"> <button class="button"
+                        style="margin-top: 20px;">Link
+                        to Website</button></a>
+                <a href=https://github.com/singhru27/grocery-list target="_blank"> <button class="button"
+                        style="margin-top: 20px;">Link
+                        to Github Repo</button></a>
+            </div>
+            <!-- End of column for button linking to the website-->
+        </div>
+        <!-- End of third row-->
+        <hr>
+
+        <!-- Row for the second element -->
+        <div class="row">
+            <!-- Column for the title-->
+            <div class="col-12">
+                <h2>Design Decisions</h2>
+            </div>
+            <!-- End of column for introduction text column-->
+            <div class="col-12">
+                <p>
+                    The color scheme was chosen with clear visibility in mind. The dark black and blue on white
+                    background is very simple, but very readable for users.
+                </p>
+                <p>
+                    The cards are laid out to follow the user's natural scan patterns. Items are sorted from left to
+                    right, then from top to bottom. Buttons to add and remove are at the bottom of the card,
+                    matching the ending point of user scan patterns.
+                </p>
+                <p>
+                    System status is always kept visible. Displays always show the user which sort and filtering
+                    criteria are being used to keep users informed as to the status of the application.
+                </p>
+                <p>
+                    All cards and displays are kept consistent across the application and the aggregated shopping
+                    cart section. Users never have to learn multiple formats, and so can extract the information
+                    they need from each item with minimal effort.
+                </p>
+                <p>
+                    The system speaks the user's language. Phrases such as "Add to Cart" use common language used in
+                    physical grocery stores - avoiding system oriented language.
+                </p>
+                <p>
+                    Users can undo actions and errors quickly and efficiently. The "Add to Cart" and "Remove from
+                    Cart" features are available in both the shopping cart section and the main items section,
+                    reducing the amount of scrolling that the user has to do to accomplish their desired tasks.
+                </p>
+                <p>
+                    Users are provided instructions for any items that are not clearly visible. There is a marker at
+                    the very top indicating that the shopping cart appears at the bottom of the page, minimizing any
+                    potential confusion.
+                </p>
+                <p>
+                    The design is minimalist and avoids overloading the user with information. Every single piece of
+                    information displayed on the website is directly relevant to the users' goals.
+                </p>
+
+            </div>
+            <!-- End of column for introduction information column-->
+        </div>
+        <!-- End of second row-->
+        <hr>
+        <!-- Row for the fourt element -->
+        <div class="row">
+            <!-- Column for the title-->
+            <div class="col-12">
+                <h2> Conclusion/Parting Thoughts</h2>
+            </div>
+            <!-- End of column for introduction text column-->
+            <div class="col-12">
+                <p>
+                    Creating a user-friendly application using stateful programming is a skill that all designers
+                    should have. This project allowed me to connect the usability principles I have learned into an
+                    actual product.
+                </p>
+                <p>
+                    It pays dividends to fully flesh out the architecture of any application before coding. Even a
+                    simple application such as the one above has a lot of moving parts, and it makes life infinitely
+                    easier to have a clear cut plan before diving into the code.
+                </p>
+                <p>
+                    It's worth it to have redundancy in some features of an application. For example, users should
+                    have the ability to add and remove items from cart from both the landing page and the shopping
+                    cart page. This minimizes scrolling and makes the design as intuitive as possible.
+                </p>
+            </div>
+            <!-- End of column for button linking to the website-->
+        </div>
+        <!-- End of fourth row-->
+        <!-- Beginning tag for a spacer row-->
+        <div class="row" style="margin-top: 5%;">
+            <div class="col text-center">
+                <p>Back to Top</p>
+            </div>
+        </div>
+        <!-- Ending tag for a spacer row-->
+        <!-- Beginning tag for a spacer row-->
+        <div class="row mb-5">
+            <div class="col text-center">
+                <a href="#beginning" style="color:black;">
+                    <span class="fas fa-angle-up"></span> <!-- using a <span> element to reference the icon -->
+                </a>
+            </div>
+        </div>
+        <!-- Ending tag for a spacer row-->
+    </div>
+    <!-- Closing tag for the overall body container-->
+</body>
+
+</html>
