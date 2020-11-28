@@ -12,10 +12,11 @@
     <script src="fontawesome-free-5.15.1-web/js/fontawesome.js"></script>
     <script src="fontawesome-free-5.15.1-web/js/solid.js"></script>
     <script src="fontawesome-free-5.15.1-web/js/brands.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="fader.js"></script>
     <style>
         html {
             scroll-behavior: smooth;
@@ -58,14 +59,14 @@
         </div>
         <!-- Row for the first section-->
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <h1> Personas/Storyboarding - Improving Household Appliances</h2>
             </div>
-            <div class="col-12" style="margin-top:10%">
+            <div class="col-12 hideme" style="margin-top:10%">
                 <h2> The Problem</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <p>What makes a interface "tick"? Even the most common devices - those that we take completely for
                     granted - rely on effective interfaces to function properly.
                 </p>
@@ -89,7 +90,7 @@
         </div>
         <!-- End of first row-->
         <!-- Opening tag for second row-->
-        <div class="row no-gutters mt-3">
+        <div class="row no-gutters mt-3 hideme">
             <div class="col-md-6 col-sm-12">
                 <img src="Assets/AC-Control.png" style="width:90%" alt="AC Control">
             </div>
@@ -101,25 +102,25 @@
         <hr>
         <!-- Opening tag for additional row-->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2> User Research/User Needs</h2>
             </div>
-            <div class="col-12">
+            <div class="col-12 hideme">
                 To research this interface, I interviewed three individuals - individuals from all walks of life
                 - to discover what they liked, loved and hated. The distilled and summarized responses are presented
                 below.
             </div>
-            <div class="col-md-6 col-sm-12 mt-5">
+            <div class="col-md-6 col-sm-12 mt-5 hideme">
                 <h5>Interview Questions and Answers</h5>
             </div>
-            <div class="col-md-6 col-sm-12 mt-5">
+            <div class="col-md-6 col-sm-12 mt-5 hideme">
                 <h5>Observations</h5>
             </div>
         </div>
         <!-- Closing tag for research row-->
         <!-- Opening tag for first set of interview questions and observations-->
         <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <ol>
                     <li>When is your birthdate?
                         <blockquote class="ml-4"> Individuals ranged in age from 15 to 50 years old. </blockquote>
@@ -169,7 +170,7 @@
                     </li>
                 </ol>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <ol>
                     <li> Users tended to have difficulty pressing the buttons on the device. Multiple users had to press
                         the button multiple times before the device did what they were trying to get it to do.
@@ -212,24 +213,24 @@
         <!-- Row for the third element -->
         <div class="row">
             <!-- Column for the title-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2> Creating the Empathy Maps/Personas</h2>
             </div>
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <p> Armed with this knowledge, I set out to create two representative personas.</p>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h4> <span class="navy"> Persona 1</span></h4>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <img src="Assets/Frank.png" alt="Frazzled-Frank" style="width: 80%">
             </div>
         </div>
         <!-- End of third row-->
         <!-- Row with explanations for "Frazzled Frank"-->
         <div class="row mt-5">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <h4>User Description</h4>
                 <p> Frazzled Frank is a middle-aged stay-at-home father of two.
                 </p>
@@ -253,7 +254,7 @@
                     the device and viewing the light that reflects user selections.
                 </p>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <h4>User Selection Explanation</h4>
                 <p> According to Census.gov, 61.6% of men in America are fathers, and about
                     50% classify as middle-aged (early thirties to early sixties) representing a very large user
@@ -278,17 +279,17 @@
         </div>
         <!-- Row for the second persona-->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h4> <span class="navy"> Persona 2</span></h4>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <img src="Assets/Amy.png" alt="new-age-amy" style="width: 80%">
             </div>
         </div>
         <!-- Closing tag for the second person header-->
         <!-- Row with explanations for "Frazzled Frank"-->
         <div class="row mt-5">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <h4>User Description</h4>
                 <p> Amy is a 16 year old female, has two siblings, has many friends, and is currently finishing up high
                     school.
@@ -315,7 +316,7 @@
                     farther away.
                 </p>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <h4>User Selection Explanation</h4>
                 <p> According to Statista, Gen Z (those born in the mid 90’s to mid 2000’s) make up 21% of the
                     population.
@@ -341,7 +342,7 @@
         <!-- Row for the second element -->
         <div class="row">
             <!-- Column for the title-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2>Storyboarding</h2>
                 <p>As a final step, I created a storyboard to show the sequential interaction pattern of "new-age Amy"
                     with this interface</p>
@@ -350,7 +351,7 @@
         <!-- End of second row-->
         <!-- Opening tag for the storyboards-->
         <!-- Set of storyboard images -->
-        <div class="row">
+        <div class="row hideme">
             <div class="col-md-3 col-sm-12">
                 <img src="Assets/Frame1.png" alt="AC Control" style="border-style: solid"
                     class="img-responsive storyboard-image">
@@ -374,7 +375,7 @@
             </div>
         </div>
         <!-- Set of storyboard images -->
-        <div class="row">
+        <div class="row hideme">
             <div class="col-md-3 col-sm-12">
                 <img src="Assets/Frame5.png" alt="AC Control" style="border-style: solid"
                     class="img-responsive storyboard-image">
@@ -398,7 +399,7 @@
             </div>
         </div>
         <!-- Set of storyboard images -->
-        <div class="row">
+        <div class="row hideme">
             <div class="col-md-3 col-sm-12">
                 <img src="Assets/Frame9.png" alt="AC Control" style="border-style: solid"
                     class="img-responsive storyboard-image">
@@ -428,11 +429,11 @@
         <!-- Row for the closing section -->
         <div class="row">
             <!-- Column for the title-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2> Conclusion/Parting Thoughts</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <p>
                     Users tend to crave automation and automatic features in appliances. It appears that even older
                     individuals have learned how to use the newer technologies, and actively seek out these technologies

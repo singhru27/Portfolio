@@ -12,10 +12,11 @@
     <script src="fontawesome-free-5.15.1-web/js/fontawesome.js"></script>
     <script src="fontawesome-free-5.15.1-web/js/solid.js"></script>
     <script src="fontawesome-free-5.15.1-web/js/brands.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="fader.js"></script>
     <style>
         html {
             scroll-behavior: smooth;
@@ -58,14 +59,14 @@
         </div>
         <!-- Row for the first section-->
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <h1> Responsive Redesign</h2>
             </div>
-            <div class="col-12" style="margin-top:10%">
+            <div class="col-12 hideme" style="margin-top:10%">
                 <h2> The Problem</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <p>Well designed websites are the cornerstone behind any business, organization, or nonprofit. A
                     properly designed website can make the difference between a site with high traffic-flow/high
                     monetization potential and one that is stagnant.
@@ -81,15 +82,15 @@
         <hr>
         <!-- Opening tag for additional row-->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="original"> The Original Website</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <img src="Assets/Brixpartners.png" style="width:80%">
             </div>
             <!-- End of column for screenshot text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <a href=http://brixpart.com/newsandresources.html target="_blank"> <button class="button"
                         style="margin-top: 20px;">Link
                         to Original Website</button></a>
@@ -100,11 +101,11 @@
         <hr>
         <!-- Row for the third element -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hiideme">
                 <h2 id="usability"> Usability/Accessibility Issues and Research</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <h4> Usability Issues</h4>
                 <p>
                     Orange font makes it hard to see headers, with text often blending into the white background
@@ -228,24 +229,24 @@
         <hr>
         <!-- Row for the second element -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="lf"> Low-Fidelity Prototyping</h2>
                 <p> To begin the process of redesigning this website, I created a series of low-fidelity sketches. The
                     sketches represent the website specifications on desktop, tablet, and mobile views (respectively).
                 </p>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <h4>Desktop View </h4>
                 <img src="Assets/lfdesktop.png" style="width:75%">
             </div>
             <!-- End of column for Desktop lo-fi prototype column-->
-            <div class="col-12 text-center" style="margin-top: 20px;">
+            <div class="col-12 text-center hideme" style="margin-top: 20px;">
                 <h4>Tablet View </h4>
                 <img src="Assets/lftablet.png" style="width:75%">
             </div>
             <!-- End of column for Tablet lo-fi prototype column-->
-            <div class="col-12 text-center" style="margin-top: 20px;">
+            <div class="col-12 text-center hideme" style="margin-top: 20px;">
                 <h4>Mobile View </h4>
                 <img src="Assets/lfmobile.png" style="width:75%">
             </div>
@@ -254,24 +255,24 @@
         <!-- End of third row-->
         <hr>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="hf"> High-Fidelity Prototyping</h2>
                 <p> Following the creation of the low-fidelity prototypes, I then created full-fledged accurate mockups
                     of the website on these three mediums. These mockups were intended to be as close to the actual
                     representation as possible</p>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <h4>Desktop View </h4>
                 <img src="Assets/hfdesktop.png" style="width:75%">
             </div>
             <!-- End of column for Desktop lo-fi prototype column-->
-            <div class="col-12 text-center" style="margin-top: 20px;">
+            <div class="col-12 text-center hideme" style="margin-top: 20px;">
                 <h4>Tablet View </h4>
                 <img src="Assets/hftablet.png" style="width:75%">
             </div>
             <!-- End of column for Tablet lo-fi prototype column-->
-            <div class="col-12 text-center" style="margin-top: 20px;">
+            <div class="col-12 text-center hideme" style="margin-top: 20px;">
                 <h4>Mobile View </h4>
                 <img src="Assets/hfmobile.png" style="width:75%">
             </div>
@@ -280,12 +281,12 @@
         <!-- End of fourth row-->
         <hr>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="vd"> Visual Design</h2>
                 <p> For ease of use in reproducing the website, a visual design style guide is attached below!</p>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <img src="Assets/visualdesign.png" style="width:75%">
             </div>
             <!-- End of column for Desktop lo-fi prototype column-->
@@ -293,18 +294,18 @@
         <!-- End of fifth row-->
         <hr>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="finishedproduct"> The Redesigned Website</h2>
                 <p> After much effort, I redesigned the website using the above specifications. A screenshot is attached
                     below, but please click the link at the bottom of this page to view the redesigned website in its
                     entirety! </p>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <img src="Assets/website.png" style="width:75%">
             </div>
             <!-- End of column for screenshot text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <a href=https://redesigned-website.herokuapp.com/ target="_blank"> <button class="button"
                         style="margin-top: 20px;">Link
                         to Redesigned Website!</button></a>
@@ -316,11 +317,11 @@
         <!-- Row for the fourt element -->
         <div class="row">
             <!-- Column for the title-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2> Conclusion/Parting Thoughts</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <p>
                     Accessibility is something that is so easy to consider, but so often overlooked. Small features like
                     alt tags make a huge difference for those who rely on screen readers and other accessibility based

@@ -12,10 +12,12 @@
     <script src="fontawesome-free-5.15.1-web/js/fontawesome.js"></script>
     <script src="fontawesome-free-5.15.1-web/js/solid.js"></script>
     <script src="fontawesome-free-5.15.1-web/js/brands.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="fader.js"></script>
+
     <style>
         html {
             scroll-behavior: smooth;
@@ -58,14 +60,14 @@
         </div>
         <!-- Row for the first section-->
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <h1> A/B Testing Analysis</h2>
             </div>
-            <div class="col-12" style="margin-top:10%">
+            <div class="col-12" style="margin-top:10% hideme">
                 <h2> The Problem</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <p>For any business, creating and ensuring that products are well-received and well-liked by users is
                     always a top priority. Failing to adapt and meet the wants and needs of consumers can lead to
                     backlash (in the case of the recent new Google suite icon rollout) or even rapid loss of users
@@ -98,15 +100,15 @@
         <hr>
         <!-- Opening tag for website A-->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="Website A"> Website A</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <img src="Assets/WebA.png" style="width:75%">
             </div>
             <!-- End of column for screenshot text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <a href=https://young-caverns-33749.herokuapp.com/ target="_blank"> <button class="button"
                         style="margin-top: 20px;">Link
                         to Website A (Refresh until you reach it!)</button></a>
@@ -116,15 +118,15 @@
         <!-- End of second row-->
         <hr>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="Website B"> Website B</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <img src="Assets/WebB.png" style="width:75%">
             </div>
             <!-- End of column for screenshot text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <a href=https://young-caverns-33749.herokuapp.com/ target="_blank"> <button class="button"
                         style="margin-top: 20px;">Link
                         to Website B (Refresh until you reach it!)</button></a>
@@ -134,11 +136,11 @@
         <!-- End of third row-->
         <hr>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="Hypotheses"> The Hypotheses and Research</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <h4 class="navy">Time To Completion</h4>
                 <ul>
                     <li style=>
@@ -176,7 +178,7 @@
                 <!-- Ending tag for main list-->
             </div>
             <!-- End of column for hypothesis 1-->
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 hideme">
                 <h4 class="navy">Return Rates</h4>
                 <ul>
                     <li style=>
@@ -228,11 +230,11 @@
         <hr>
 
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="Data"> Data Collection</h2>
-            </div class="col-12">
+            </div>
             <!-- End of column for header text column-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <p style="margin-bottom: 15px;">
                     Data was primarily collected from undergraduate college students enrolled in a User Interfaces
                     and User Design class. These students were instructed to add $150 worth of their items to their
@@ -252,57 +254,14 @@
             <!-- End of column for bullet points-->
         </div>
         <!-- End of fifth row-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <hr>
-        <!-- Row for the fourt element -->
-        <div class="row">
-            <!-- Column for the title-->
-            <div class="col-12">
-                <h2> Conclusion/Parting Thoughts</h2>
-            </div>
-            <!-- End of column for introduction text column-->
-            <div class="col-12">
-                <p>
-                    Creating a user-friendly application using stateful programming is a skill that all designers
-                    should have. This project allowed me to connect the usability principles I have learned into an
-                    actual product.
-                </p>
-                <p>
-                    It pays dividends to fully flesh out the architecture of any application before coding. Even a
-                    simple application such as the one above has a lot of moving parts, and it makes life infinitely
-                    easier to have a clear cut plan before diving into the code.
-                </p>
-                <p>
-                    It's worth it to have redundancy in some features of an application. For example, users should
-                    have the ability to add and remove items from cart from both the landing page and the shopping
-                    cart page. This minimizes scrolling and makes the design as intuitive as possible.
-                </p>
-            </div>
-            <!-- End of column for button linking to the website-->
-        </div>
-        <!-- End of fourth row-->
         <hr>
 
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="info"> Infographic of Findings</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12 text-center">
+            <div class="col-12 text-center hideme">
                 <img src="Assets/Info.png" style="width:50%">
             </div>
             <!-- End of column for infographic image column-->
@@ -310,11 +269,11 @@
         <!-- End of sixth row-->
         <hr>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <h2 id="takeaway"> Conclusion/Parting Thoughts</h2>
             </div>
             <!-- End of column for introduction text column-->
-            <div class="col-12">
+            <div class="col-12 hideme">
                 <p> Perhaps one of the biggest takeaways from this project was that
                     conducting tests with high power and low chance of statistical error requires a large volume of
                     data.
